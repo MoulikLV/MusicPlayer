@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #fff
+}
+
+.container {
+    max-width: 300px;
+    height: 520px;
+    padding: 20px;
+    margin: 20px auto;
+    
+    
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(146, 55, 90);
+    border-radius: 15px;
+  }
+
+  h1{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .player{
+    text-align: center;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .controls{
+    margin-top:80px;
+  }
+
+  .audioPlayer{
+    margin-top: 60px;
+    color: black;
+   
+  }
+
+  button{
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color:    #546c86;
+    color: white;
+
+
+  }
+
+  button:hover{
+    background-color: lightblue;
+    
+  }
+
+  #songTitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+
+  .cast{
+    color: rgb(218, 141, 141)
+  }
+
+ 
+ 
+input[id="progressBar"] {
+  -webkit-appearance: none;
+  width:60%;
+  height: 10px;
+  border-radius: 20px;
+  background: #d4b8b8;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+input[id="progressBar"]:hover {
+  opacity: 1;
+}
+
+input[id="progressBar"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance:none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #4abd4e;
+  cursor: pointer;
+}
+
+/* input[id="progressBar"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+} */
+
+
+input[id=volumeControl]:hover{
+  cursor: pointer;
+}
+
+
+
+
+.gradient {
+  width: 100%;
+  
+   
+  background: linear-gradient(to bottom, #fdfafa, #cdcbcb, #757171);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;
+}
+
+
+
